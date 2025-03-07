@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+<title></title>
+    <link real="stylesheet" type="text/css"href="">
+    <script src="jquery.js"></script></script>
+    <script>
+  
+
+  </script>
+  <style>
+   .site{
+    width:1000px ;
+    height:500px ;
+    background-color:blueviolet ;
+   }
+   .header{
+    width:inherit;
+    height:100px ;
+    background-color:navy ;
+
+
+   }
+   .main{
+
+    width:inherit;
+    height:350px ;
+    background-color:orangered;
+   }
+   .footer{
+    width:inherit;
+    height:50px ;
+    background-color:rgb(0, 255, 72) ;
+   }
+   
+   .esquerda{
+    width:200px;
+    height:inherit ;
+    background-color:pink;
+    display:inline-block;
+    float:right
+    
+    
+
+    }
+    .centro{
+      width:600px;
+    height:inherit ;
+    background-color:yellow;
+    display:inline-block;
+    float:right
+      
+
+    }
+    .direita{
+      width:200px;
+    height:inherit ;
+    background-color:black;
+    display:inline-block;
+    float:right
+
+    }
+    .direita1{
+      width:inherit;
+    height:33% ;
+    background-color:rgb(0, 255, 72) ;
+
+    }
+    .direita2{
+      width:inherit;
+    height:33%;
+    background-color:rgb(255, 0, 0) ;
+    }
+    .direita3{
+      width:inherit;
+    height:33% ;
+    background-color:rgb(208, 255, 0) ;
+    }
+
+    .esquerda1{
+      width:inherit;
+    height:50% ;
+    background-color:rgb(255, 0, 191) ;
+
+    }
+    .esquerda2{
+      width:inherit;
+    height:50% ;
+    background-color:rgb(0, 0, 0) ;
+    }
+  
+  </style>
+    
+  </head>
+  <body>
+     <div>
+      <div class="site">
+            <div class="header">
+          </div>
+
+          <div class="main">
+            <div class="esquerda">
+              <div clasa="esquerda1">
+              </div>
+        
+              <div class="esquerda2">
+              </div>
+            </div>
+          
+            <div class="centro">
+          </div>
+
+          <div class="direita">
+                  <div class="direita1">
+                  </div>
+
+                <div class="direita2">
+                </div>
+
+                <div class="direita3">
+                </div>
+          </div>
+        </div>
+                <div class="footer">
+                </div>
+            </div>
+  </body>
+</html>
