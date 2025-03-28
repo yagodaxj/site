@@ -1,245 +1,356 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-    <head>
-        <title></title>
-        <link rel="stylesheet" type="text/css" href="">
-        <script src="jquery.js"></script>
-        <script>
-           
-        </script>
-        <style>
-            .site{
-                width:1000px;
-                height:700px;
-                background-color:red ;
-            }
-            .um{
-                width:inherit;
-                height:30px;
-                background-color: rgb(26, 20, 201);
-            }
-            .dois{
-                width:inherit;
-                height:100px;
-                background-color: rgb(0, 255, 76);
-            }
-            .tres{
-                width:inherit;
-                height:30px;
-                background-color:rgb(181, 24, 220) ;
-            }
-            .quatro{
-                width:inherit;
-                height:450px;
-                background-color: rgb(151, 62, 148);
-            }
-            .cinco{
-                width:inherit;
-                height:30px;
-                background-color:rgb(200, 255, 0) ;
-            }
-            .seis{
-                width:inherit;
-                height:30px;
-                background-color:rgb(255, 140, 0) ;
-            }
-            .sete{
-                width:inherit;
-                height:30px;
-                background-color:red ;
-            }
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="">
+    <script src="jquery.js"></script>
+    <script>
+
+    </script>
+    <style>
+        .site {
+            width: 1000px;
+            height: 700px;
+            background-color: red;
+        }
+
+        .um {
+            width: inherit;
+            height: 30px;
+            background-color: rgb(26, 20, 201);
+        }
+
+        .dois {
+            width: inherit;
+            height: 100px;
+            background-color: rgb(0, 255, 76);
+        }
+
+        .tres {
+            width: inherit;
+            height: 30px;
+            background-color: rgb(181, 24, 220);
+        }
+
+        .quatro {
+            width: inherit;
+            height: 450px;
+            background-color: rgb(151, 62, 148);
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVEuLi11u3oKfb8vIM2n5QSWoKG_91DA7MEg&s");
+        }
+
+        .cinco {
+            width: inherit;
+            height: 30px;
+            background-color: rgb(200, 255, 0);
+        }
+
+        .seis {
+            width: inherit;
+            height: 30px;
+            background-color: rgb(255, 140, 0);
+        }
+
+        .sete {
+            width: inherit;
+            height: 30px;
+            background-color: red;
+        }
 
 
 
 
-            .um1{
-                width:20%;
-                height:inherit;
-                background-color:rgb(53, 159, 24) ;
-                display:inline-block;
-                float:left;
-            }
-            .um2{
-                width:5%;
-                height:inherit;
-                background-color:rgb(43, 74, 34) ;
-                display:inline-block;
-                float:right;
-            }
-            .um3{
-                width:5%;
-                height:inherit;
-                background-color:rgb(67, 24, 159) ;
-                display:inline-block;
-                float:right;
-                border-radius: 100%;
-            }
-            .dois1{
-                width:10%;
-                height:inherit;
-                background-color: aqua ;
-                display:inline-block;
-                float:left;
-                border-radius: 100%;
-                margin-left: 40px;
-            }
-            .dois2{
-                width:10%;
-                height:inherit;
-                background-color: blue ;
-                display:inline-block;
-                float:left;
-                border-radius: 100%;
-                margin-left: 40px;
-            }
-            .dois3{
-                width:10%;
-                height:inherit;
-                background-color:rgb(53, 159, 24) ;
-                display:inline-block;
-                float:left;
-                border-radius: 100%;
-                margin-left: 40px;
-            }
-            .dois4{
-                width:10%;
-                height:inherit;
-                background-color: blueviolet;
-                display:inline-block;
-                float:left;
-                border-radius: 100%;
-                margin-left: 40px;
+        .um1 {
+            width: 20%;
+            height: inherit;
+            background-color: rgb(53, 159, 24);
+            display: inline-block;
+            float: left;
+            color: black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+        }
 
-            }
-            .dois5{
-                width:10%;
-                height:inherit;
-                background-color: brown ;
-                display:inline-block;
-                float:left;
-                border-radius: 100%;
-                margin-left: 40px;
-            }
-            .tres1{
-                width:;
-                height:inherit;
-                background-color:rgb(53, 159, 24) ;
-                display:inline-block;
-                float:right;
-            }
-            .tres2{
-                width:;
-                height:inherit;
-                background-color:rgb(53, 159, 24) ;
-                display:inline-block;
-                float:right;
-            }
-            .tres3{
-                width:;
-                height:inherit;
-                background-color:rgb(53, 159, 24) ;
-                display:inline-block;
-                float:right;
-            }
-            .cinco1{
-                width:;
-                height:inherit;
-                background-color:rgb(53, 159, 24) ;
-                display:inline-block;
-                float:right;
-            }
-            .cinco2{
-                width:;
-                height:inherit;
-                background-color:rgb(53, 159, 24) ;
-                display:inline-block;
-                float:right;
-            }
-            .cinco3{
-                width:;
-                height:inherit;
-                background-color:rgb(53, 159, 24) ;
-                display:inline-block;
-                float:right;
-            }
-            .cinco4{
-                width:;
-                height:inherit;
-                background-color:rgb(53, 159, 24) ;
-                display:inline-block;
-                float:right;
-            }
-            .sete1{
-                width:;
-                height:inherit;
-                background-color:rgb(53, 159, 24) ;
-                display:inline-block;
-                float:right;
-            }
-            .sete2{
-                width:;
-                height:inherit;
-                background-color:rgb(53, 159, 24) ;
-                display:inline-block;
-                float:right;
-            }
-            .sete3{
-                width:;
-                height:inherit;
-                background-color:rgb(53, 159, 24) ;
-                display:inline-block;
-                float:right;
-            }
-            .sete4{
-                width:;
-                height:inherit;
-                background-color:rgb(53, 159, 24) ;
-                display:inline-block;
-                float:right;
-            }
-            .sete5{
-                width:;
-                height:inherit;
-                background-color:rgb(53, 159, 24) ;
-                display:inline-block;
-                float:right;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="site">
-            <div class="um">
-                <div class="um1"></div>
-                <div class="um2"></div>
-                <div class="um3"></div>
-            </div>
-            <div class="dois">
-                <div class="dois1"></div>
-                <div class="dois2"></div>
-                <div class="dois3"></div>
-                <div class="dois4"></div>
-                <div class="dois5"></div>
-            </div>
-            <div class="tres">
-                <div class="tres1"></div>
-                <div class="tres2"></div>
-                <div class="tres3"></div>
-            </div>
-            <div class="quatro"></div>
-            <div class="cinco">
-                <div class="cinco1"></div>
-                <div class="cinco2"></div>
-                <div class="cinco3"></div>
-                <div class="cinco4"></div>
-            </div>
-            <div class="seis"></div>
-            <div class="sete">
-                <div class="sete1"></div>
-                <div class="sete2"></div>
-                <div class="sete3"></div>
-                <div class="sete4"></div>
-                <div class="sete5"></div>
-            </div>
+        .um2 {
+            width: 5%;
+            height: inherit;
+            background-color: rgb(43, 74, 34);
+            display: inline-block;
+            float: right;
+            color: black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .um3 {
+            width: 5%;
+            height: inherit;
+            background-color: rgb(67, 24, 159);
+            display: inline-block;
+            float: right;
+            border-radius: 100%;
+            color: black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .dois1 {
+            width: 10%;
+            height: inherit;
+            background-image: url("https://i.ytimg.com/vi/TZK5pljuSJQ/hq720.jpg?sqp=-oaymwExCK4FEIIDSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYfyATKBgwDw==&rs=AOn4CLAURuqM24R2fQOjOpKGOcF6v9WT6Q");
+            display: inline-block;
+            float: left;
+            border-radius: 100%;
+            margin-left: 40px;
+            color: black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .dois2 {
+            width: 10%;
+            height: inherit;
+            background-image: url("https://yt3.googleusercontent.com/HR4gNce_qjEsHhtPwrNXxK2Q528i5-6aLYaki3kziCfWflQaeZRzIeVbAvMUks5PO2NKb1_Skg=s900-c-k-c0x00ffffff-no-rj");
+            display: inline-block;
+            float: left;
+            border-radius: 100%;
+            margin-left: 40px;
+            color: black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .dois3 {
+            width: 10%;
+            height: inherit;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVEuLi11u3oKfb8vIM2n5QSWoKG_91DA7MEg&s");
+            display: inline-block;
+            float: left;
+            border-radius: 100%;
+            margin-left: 40px;
+            color: black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .dois4 {
+            width: 10%;
+            height: inherit;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVEuLi11u3oKfb8vIM2n5QSWoKG_91DA7MEg&s");
+            display: inline-block;
+            float: left;
+            border-radius: 100%;
+            margin-left: 40px;
+            color: black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+
+        }
+
+        .dois5 {
+            width: 10%;
+            height: inherit;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVEuLi11u3oKfb8vIM2n5QSWoKG_91DA7MEg&s");
+            display: inline-block;
+            float: left;
+            border-radius: 100%;
+            margin-left: 40px;
+            color: black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .tres1 {
+            width: 30px;
+            height: inherit;
+            background-color: rgb(53, 159, 24);
+            display: inline-block;
+            float: left;
+            border-radius: 100% color:black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .tres2 {
+            width: 20%;
+            height: inherit;
+            background-color: rgb(53, 159, 24);
+            display: inline-block;
+            float: left;
+            color: black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .tres3 {
+            width: 2%;
+            height: inherit;
+            background-color: rgb(53, 159, 24);
+            display: inline-block;
+            float: right;
+            color: black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .cinco1 {
+            width: 5%;
+            height: inherit;
+            background-color: orange;
+            display: inline-block;
+            float: left;
+            color: black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .cinco2 {
+            width: 5%;
+            height: inherit;
+            background-color: rgb(0, 0, 0);
+            display: inline-block;
+            float: left;
+            color: black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .cinco3 {
+            width: 5%;
+            height: inherit;
+            background-color: rgb(24, 62, 159);
+            display: inline-block;
+            float: left;
+            color: black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .cinco4 {
+            width: 5%;
+            height: inherit;
+            background-color: rgb(159, 24, 98);
+            display: inline-block;
+            float: right;
+            color: black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .sete1 {
+            width: 20%;
+            height: inherit;
+            background-color: rgb(159, 65, 24);
+            display: inline-block;
+            float: right;
+            color: black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .sete2 {
+            width: 20%;
+            height: inherit;
+            background-color: rgb(148, 24, 159);
+            display: inline-block;
+            float: right;
+            color: black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .sete3 {
+            width: 20%;
+            height: inherit;
+            background-color: rgb(53, 159, 24);
+            display: inline-block;
+            float: right;
+            color: black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .sete4 {
+            width: 20%;
+            height: inherit;
+            background-color: rgb(159, 24, 24);
+            display: inline-block;
+            float: right;
+            color: black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        .sete5 {
+
+            width: 20%X;
+            height: inherit;
+            background-color: rgb(159, 24, 74);
+            display: inline-block;
+            float: right;
+            color: black;
+            font-size: 13%;
+            font-family: Arial;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="site">
+        <div class="um">
+            <div class="um1"></div>
+            <div class="um2"></div>
+            <div class="um3"></div>
         </div>
-    </body>
+        <div class="dois">
+            <div class="dois1"></div>
+            <div class="dois2"></div>
+            <div class="dois3"></div>
+            <div class="dois4"></div>
+            <div class="dois5"></div>
+        </div>
+        <div class="tres">
+            <div class="tres1"></div>
+            <div class="tres2"></div>
+            <div class="tres3"></div>
+        </div>
+        <div class="quatro"></div>
+        <div class="cinco">
+            <div class="cinco1"></div>
+            <div class="cinco2"></div>
+            <div class="cinco3"></div>
+            <div class="cinco4"></div>
+        </div>
+        <div class="seis"></div>
+        <div class="sete">
+            <div class="sete1"></div>
+            <div class="sete2"></div>
+            <div class="sete3"></div>
+            <div class="sete4"></div>
+            <div class="sete5"></div>
+        </div>
+    </div>
+</body>
+
 </html>
